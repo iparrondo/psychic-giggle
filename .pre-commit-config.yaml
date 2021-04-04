@@ -20,7 +20,7 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: flake8
-      - id: double-quote-string-fixer
+#      - id: double-quote-string-fixer
       - id: check-docstring-first
 #  - repo: https://github.com/psf/black
 #    rev: 19.3b0

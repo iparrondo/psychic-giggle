@@ -18,7 +18,7 @@ def methods_importer(method_name: str, modules: List[Union[str, ModuleType]]) ->
             else:
                 raise TypeError('Must be list of strings or ModuleType')
 
-            # print("mod.__name__ :", mod.__name__)
+            print('mod.__name__ :', mod.__name__)
 
             met = getattr(mod, method_name, None)
 
